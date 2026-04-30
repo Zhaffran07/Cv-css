@@ -21,7 +21,7 @@ body {
   color: var(--navy);
 }
 
-/* ===== NAVBAR ===== */
+
 nav {
   background: var(--navy);
   position: sticky;
@@ -72,7 +72,6 @@ nav ul li a.active::after {
   width: 100%;
 }
 
-/* ===== SECTIONS ===== */
 section {
   display: none;
   min-height: calc(100vh - 57px);
@@ -82,7 +81,6 @@ section.active {
   display: block;
 }
 
-/* ===== HOME SECTION ===== */
 #home {
   background: linear-gradient(135deg, var(--navy) 0%, #1a3a6b 100%);
   display: flex;
@@ -388,7 +386,6 @@ section.active {
   padding: 10px;
 }
 
-/* ===== CONTACT SECTION ===== */
 #contact {
   padding: 60px 20px;
   background: var(--cream);
